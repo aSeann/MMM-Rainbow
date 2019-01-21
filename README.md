@@ -27,13 +27,13 @@ To use this module, add the following configuration block to the modules array i
 var config = {
     modules: [
         {
-			module: "MMM-Rainbow",
-			/*	Position not required as it has no UI.	*/
-			config: {
-				fadeTime: 1500,	//	Duration in milliseconds it takes for the color to fade.
-				nextColor: 1500,	//	Duration in milliseconds until the next random color is generated and set.
-			}
-		},
+		module: "MMM-Rainbow",
+		/*	Position not required as it has no UI.	*/
+		config: {
+			fadeTime: 1500,	//	Duration in milliseconds it takes for the color to fade.
+			nextColor: 1500,	//	Duration in milliseconds until the next random color is generated and set.
+		}
+	},
     ]
 }
 ```
