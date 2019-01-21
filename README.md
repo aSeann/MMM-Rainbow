@@ -3,8 +3,6 @@
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
 Honestly I don't think it will be used but I needed to start somewhere to contribute to the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
-The module is very basic and 
-
 
 ## Preview
 
