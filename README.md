@@ -2,11 +2,12 @@
 
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-Honestly I don't think it will be used but I needed to start somewhere to contribute to the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
+Update info:
+As suggested by a user on the [MagicMirror² Forum](https://forum.magicmirror.builders/) I have added the option to assign the random colors to specific modules or to all modules. See the config below to see how to use.
 
 ## Preview
 
-![](img/preview.gif)
+![#Modular](img/Preview-1.gif) ![#Non-Modular](img/Preview-1.gif)
 
 
 ## Installation
@@ -28,8 +29,13 @@ var config = {
 		module: "MMM-Rainbow",
 		/*	Position not required as it has no UI.	*/
 		config: {
-			fadeTime: 1500,	//	Duration in milliseconds it takes for the color to fade.
+			fadeTime: 1500,		//	Duration in milliseconds it takes for the color to fade.
 			nextColor: 1500,	//	Duration in milliseconds until the next random color is generated and set.
+			modular: false,		//	
+			moduleList: [		//	Only required if modular is true.
+				"MMM-iClock",
+				"MMM-Showtimes"
+			]
 		}
 	},
     ]
