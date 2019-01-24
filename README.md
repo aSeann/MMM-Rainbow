@@ -7,7 +7,10 @@ As suggested by a user on the [MagicMirror² Forum](https://forum.magicmirror.bu
 
 ## Preview
 
-![#Modular](img/Preview-1.gif) ![#Non-Modular](img/Preview-1.gif)
+# Modular
+![](img/Preview-1.gif)
+# Non-Modular
+![](img/Preview-2.gif)
 
 
 ## Installation
